@@ -7,45 +7,51 @@ const WhySkywave = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-24 items-center">
           <div className="relative">
             <div className="absolute -top-12 -left-12 w-64 h-64 bg-primary-fixed opacity-30 rounded-full blur-3xl"></div>
-            <img
-              className="rounded-xl relative z-10 w-full shadow-2xl"
-              alt="abstract architectural close-up with sharp angles and dramatic shadows symbolizing structural integrity and branding precision"
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuAp2gujUJ7cWnQgw1VjvAsYhbOJZcj3CY8ttqC5vC8lO9Upt0HktvIqLx0_EW_Jzoe3n9aoac4yIUv9tsl933jdROunGQOwnYK58LXzvHxmunmJmTRjKFWPeQ-fhQbWi5Ycaaxm2om9SLTxS3fUAyYTezX7XQlucSjys8gAjflBvhwpp7R3lu8HtCudJRgA0LCJYCJ90Nw2BRDQGpftsk5eM9dPGGsEQlxMreQkTEk9tN57GidgU2_a-OYR4NCRkSonEZ8FNJdP7DE"
-            />
+            <video
+              autoPlay
+              loop
+              muted
+              playsInline
+              className="rounded-xl relative z-10 w-full shadow-2xl object-cover"
+            >
+              <source src="/web_dev_video.mp4" type="video/mp4" />
+            </video>
           </div>
           <div>
-            <h2 className="text-5xl font-headline font-black tracking-tighter uppercase mb-8 leading-tight">Why Skywave?</h2>
+            <h2 className="text-5xl font-headline font-black tracking-tighter uppercase mb-8 leading-tight">
+              WHY <span className="text-primary italic">SKYWAVE?</span>
+            </h2>
             <div className="space-y-12">
               <div className="flex gap-6">
-                <span className="material-symbols-outlined text-primary text-3xl shrink-0">
-                  verified
+                <span className="material-symbols-outlined text-primary text-3xl shrink-0 transition-transform hover:rotate-12 hover:scale-110">
+                  architecture
                 </span>
                 <div>
-                  <h4 className="text-xl font-headline font-bold mb-2">Cohesive Branding</h4>
+                  <h4 className="text-xl font-headline font-bold mb-2">High-Performance Architectures</h4>
                   <p className="text-secondary leading-relaxed">
-                    We don&apos;t just design logos; we build living identity systems that resonate across every touchpoint.
+                    We don&apos;t just build websites; we engineer blazing-fast Next.js and React ecosystems optimized for scale, conversion, and elite branding.
                   </p>
                 </div>
               </div>
               <div className="flex gap-6">
-                <span className="material-symbols-outlined text-primary text-3xl shrink-0">
-                  account_tree
+                <span className="material-symbols-outlined text-primary text-3xl shrink-0 transition-transform hover:-translate-y-2 hover:scale-110">
+                  devices
                 </span>
                 <div>
-                  <h4 className="text-xl font-headline font-bold mb-2">Scalable Systems</h4>
+                  <h4 className="text-xl font-headline font-bold mb-2">Omni-Platform Dominance</h4>
                   <p className="text-secondary leading-relaxed">
-                    Our workflows are built to handle rapid growth without compromising on quality or turnaround.
+                    Delivering native-grade mobile and web solutions through Flutter and React Native, ensuring seamless app experiences across Android and iOS.
                   </p>
                 </div>
               </div>
               <div className="flex gap-6">
-                <span className="material-symbols-outlined text-primary text-3xl shrink-0">
-                  lock
+                <span className="material-symbols-outlined text-primary text-3xl shrink-0 transition-transform hover:scale-110">
+                  dns
                 </span>
                 <div>
-                  <h4 className="text-xl font-headline font-bold mb-2">Secure Transactions</h4>
+                  <h4 className="text-xl font-headline font-bold mb-2">Resilient Data & Commerce</h4>
                   <p className="text-secondary leading-relaxed">
-                    Enterprise-grade security is baked into every technical deployment we manage.
+                    From enterprise Shopify and WordPress builds to robust custom backend databases, our infrastructure is secure, scalable, and built for growth.
                   </p>
                 </div>
               </div>
