@@ -4,7 +4,7 @@ import Link from "next/link";
 const Navbar = () => {
   return (
     <nav className="fixed top-0 w-full z-50 bg-white/90 backdrop-blur-xl border-b border-zinc-100">
-      <div className="flex justify-between items-center px-8 py-6 max-w-[1440px] mx-auto w-full">
+      <div className="flex justify-between items-center px-8 py-6 max-w-[1640px] mx-auto w-full">
         <Link href="/" className="text-2xl font-black tracking-tighter text-zinc-900 font-headline uppercase leading-none">
           Skywave <span className="text-primary">Technologies</span>
         </Link>

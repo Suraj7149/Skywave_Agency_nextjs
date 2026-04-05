@@ -29,24 +29,6 @@ export default function Home() {
 
       <Capabilities />
 
-      {/* Partner Logos (Scrolling) */}
-      {/* <section className="py-16 bg-surface-container-high overflow-hidden">
-        <div className="flex whitespace-nowrap gap-20 items-center animate-scroll opacity-50 grayscale hover:grayscale-0 transition-all">
-          <div className="text-2xl font-headline font-bold uppercase tracking-widest text-on-surface mx-12">Lumina</div>
-          <div className="text-2xl font-headline font-bold uppercase tracking-widest text-on-surface mx-12">Vertex Systems</div>
-          <div className="text-2xl font-headline font-bold uppercase tracking-widest text-on-surface mx-12">Apex Media</div>
-          <div className="text-2xl font-headline font-bold uppercase tracking-widest text-on-surface mx-12">Novanet</div>
-          <div className="text-2xl font-headline font-bold uppercase tracking-widest text-on-surface mx-12">Echoic</div>
-          <div className="text-2xl font-headline font-bold uppercase tracking-widest text-on-surface mx-12">Foundry</div>
-          <div className="text-2xl font-headline font-bold uppercase tracking-widest text-on-surface mx-12">Lumina</div>
-          <div className="text-2xl font-headline font-bold uppercase tracking-widest text-on-surface mx-12">Vertex Systems</div>
-          <div className="text-2xl font-headline font-bold uppercase tracking-widest text-on-surface mx-12">Lumina</div>
-          <div className="text-2xl font-headline font-bold uppercase tracking-widest text-on-surface mx-12">Vertex Systems</div>
-          <div className="text-2xl font-headline font-bold uppercase tracking-widest text-on-surface mx-12">Apex Media</div>
-          <div className="text-2xl font-headline font-bold uppercase tracking-widest text-on-surface mx-12">Novanet</div>
-        </div>
-      </section> */}
-
       <WhySkywave />
 
       <Portfolio />
