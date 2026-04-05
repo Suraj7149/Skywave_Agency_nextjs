@@ -33,7 +33,7 @@ const Hero = () => {
           <span className="inline-block px-4 py-1 bg-primary-container text-on-primary-container text-xs font-headline font-bold tracking-widest uppercase mb-6 rounded-sm">
             WHERE AMBITION MEETS ALTITUDE
           </span>
-          <h1 className="text-7xl md:text-9xl font-headline font-black tracking-tighter leading-[0.9] text-on-surface mb-8 uppercase max-w-[min-content] md:max-w-4xl">
+          <h1 className="text-7xl md:text-9xl font-headline font-black tracking-tighter leading-[0.9] text-on-surface mb-8 uppercase max-w-[min-content] md:max-w-6xl">
             WE ENGINEER <span className="text-primary">SKYWAVE</span> SOLUTIONS.
           </h1>
           <p className="text-xl md:text-2xl text-secondary max-w-2xl mb-12 leading-relaxed">
