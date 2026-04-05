@@ -84,7 +84,7 @@ const ContactFormAndInfo = () => {
               src="https://lh3.googleusercontent.com/aida-public/AB6AXuBv78LjexyV_8U06DWBiGWtERm5MDjtXP1g5urECRDLWLBg-Thym7wegwPc3MoqobB42Ctua7mvcEiK9QtB1vWeFNFYpK0HpGFCgsD925ytHDuSyJyiw0aaKlEbR3HLwIj6WiBwTZNH3Brs2Z8-wypOz7LopCZz3MWA8T12fOTItKBLsWqB1RTWxbMDxQ3XvWpqm1aOeO9wlK7bEaCJoIe8T8gCGY45Y4ySnAz9UOU3eXa-lAKdnf4f2ufiqH25e4FnENJLsKi8ST4"
             />
             <div className="absolute bottom-6 left-6 z-20 bg-white p-4 rounded-lg shadow-xl">
-              <p className="font-headline font-bold text-sm text-zinc-900">Skywave Studio NYC</p>
+              <p className="font-headline font-bold text-sm text-zinc-900">Skywave Technologies</p>
               <p className="text-xs text-zinc-500">Click to expand map view</p>
             </div>
           </div>

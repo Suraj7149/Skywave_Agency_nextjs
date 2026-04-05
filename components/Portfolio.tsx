@@ -5,9 +5,11 @@ const Portfolio = () => {
   return (
     <section className="py-32 bg-surface-container-low">
       <div className="container mx-auto px-8">
-        <div className="flex justify-between items-end mb-16">
-          <h2 className="text-6xl font-headline font-black tracking-tighter uppercase leading-none">Built For Impact</h2>
-          <Link className="text-primary font-headline font-bold uppercase tracking-widest border-b-2 border-primary pb-1" href="/portfolio">
+        <div className="flex flex-col md:flex-row justify-between items-start md:items-end gap-6 md:gap-8 mb-12 md:mb-16">
+          <h2 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-headline font-black tracking-tighter uppercase leading-[0.9] max-w-full">
+            Built For Impact
+          </h2>
+          <Link className="text-primary font-headline font-bold uppercase tracking-widest border-b-2 border-primary pb-1 shrink-0 text-sm md:text-base mt-2 md:mt-0" href="/portfolio">
             All Case Studies
           </Link>
         </div>
@@ -15,24 +17,24 @@ const Portfolio = () => {
           <div className="group cursor-pointer">
             <div className="overflow-hidden rounded-xl mb-6 aspect-video">
               <img
-                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-                alt="minimalist digital dashboard display showing high-growth analytics with clean sans-serif typography and orange accent colors"
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuBDDHNJsR8IaIBJ5erMazkEHAqzKL_FMxAJDOZskqvSgRL6tw4ANLRwZgUwVSfYab653Wax8NrRAGsx6ka2GMrSykhQVt-gkWPklE0FEYIG31Nl0Y5Fk08mYyQPLQ91i2rMcoMI8YBn2E4R-mvH_haQewSJRcQ8nu7Bg_lDTwkUlvQMpqBWVbdfRK3jjaj_fY9ImqwlbJiXXBsRZFNflZD3lQwViFktFgGbn81Ces8Br4rLmxU-cybWcg3uqQIG7afDElfDToqicsE"
+                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 object-top"
+                alt="Shree Hari project showcasing lead generation capabilities"
+                src="/shree_hari_industrial_project.png"
               />
             </div>
-            <h3 className="text-3xl font-headline font-bold tracking-tight mb-2">Novanet Rebrand</h3>
-            <p className="text-sm font-headline uppercase tracking-widest text-secondary">Strategic Positioning • Web Architecture</p>
+            <h3 className="text-3xl font-headline font-bold tracking-tight mb-2">Shree Hari</h3>
+            <p className="text-sm font-headline uppercase tracking-widest text-secondary">Lead Generation</p>
           </div>
           <div className="group cursor-pointer translate-y-12">
             <div className="overflow-hidden rounded-xl mb-6 aspect-video">
               <img
-                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-                alt="interior of a modern high-tech office lobby with sleek furniture and large digital displays reflecting architectural precision"
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuBVozTljpuhtFy3MCdEfPsxPKkATHK5OZA5i6oWOD79u9kfLts7mAjFNrZPN2YKOcHQKHqI9MHHgD4BtD1ZENmJZ_vhaB-osVwYaDtsm2RCuznvse2rB1U7KiNjsvJMjAwf5NFyD24TMJUGRDD4m4QDTzkGaaU99tz7OAvN7ZpetterMlR-N18Sgm20NCZJy7s5BoLJ-Zh78Fv66j6BtqknGzcV58BI-Zb4Ss-2xnqPLCCCQq-uXzFJgukeNO8qpMR79URrXr9GFhM"
+                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 object-top"
+                alt="Dilli Restaurant modern web application interface"
+                src="/Dilli_restaurant_project.png"
               />
             </div>
-            <h3 className="text-3xl font-headline font-bold tracking-tight mb-2">Vertex Systems Launch</h3>
-            <p className="text-sm font-headline uppercase tracking-widest text-secondary">Campaign Strategy • Lead Generation</p>
+            <h3 className="text-3xl font-headline font-bold tracking-tight mb-2">Dilli Restaurant</h3>
+            <p className="text-sm font-headline uppercase tracking-widest text-secondary">Web Application</p>
           </div>
         </div>
       </div>

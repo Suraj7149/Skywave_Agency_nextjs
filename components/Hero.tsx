@@ -28,27 +28,27 @@ const Hero = () => {
         <div className="absolute inset-0 bg-gradient-to-r from-surface via-surface/80 to-surface/30"></div>
       </div>
 
-      <div className="container mx-auto px-8 relative z-20">
-        <div className="max-w-4xl">
-          <span className="inline-block px-4 py-1 bg-primary-container text-on-primary-container text-xs font-headline font-bold tracking-widest uppercase mb-6 rounded-sm">
+      <div className="container mx-auto px-6 md:px-8 relative z-20">
+        <div className="max-w-4xl pt-4 md:pt-0">
+          <span className="inline-block px-3 py-1 md:px-4 md:py-1 bg-primary-container text-on-primary-container text-[10px] md:text-xs font-headline font-bold tracking-widest uppercase mb-4 md:mb-6 rounded-sm">
             WHERE AMBITION MEETS ALTITUDE
           </span>
-          <h1 className="text-7xl md:text-9xl font-headline font-black tracking-tighter leading-[0.9] text-on-surface mb-8 uppercase max-w-[min-content] md:max-w-6xl">
+          <h1 className="text-5xl sm:text-7xl md:text-9xl font-headline font-black tracking-tighter leading-[0.9] text-on-surface mb-6 md:mb-8 uppercase">
             WE ENGINEER <span className="text-primary">SKYWAVE</span> SOLUTIONS.
           </h1>
-          <p className="text-xl md:text-2xl text-secondary max-w-2xl mb-12 leading-relaxed">
+          <p className="text-lg sm:text-xl md:text-2xl text-secondary max-w-2xl mb-8 md:mb-12 leading-relaxed">
             A full-service technology partner focused on elevating businesses through cutting-edge systems and relentless engineering excellence.
           </p>
-          <div className="flex flex-wrap gap-4">
+          <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
             <Link
               href="/contact"
-              className="bg-primary text-on-primary px-10 py-5 rounded-full font-headline font-bold uppercase tracking-widest hover:shadow-2xl transition-all duration-300"
+              className="w-full sm:w-auto text-center bg-primary text-on-primary px-8 md:px-10 py-4 md:py-5 rounded-full font-headline font-bold uppercase tracking-widest text-xs md:text-sm hover:shadow-2xl transition-all duration-300"
             >
               Start Your Growth
             </Link>
             <Link
               href="/portfolio"
-              className="bg-surface-container-highest text-on-surface px-10 py-5 rounded-full font-headline font-bold uppercase tracking-widest hover:bg-surface-variant transition-all"
+              className="w-full sm:w-auto text-center bg-surface-container-highest text-on-surface px-8 md:px-10 py-4 md:py-5 rounded-full font-headline font-bold uppercase tracking-widest text-xs md:text-sm hover:bg-surface-variant transition-all"
             >
               View Work
             </Link>
