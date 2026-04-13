@@ -64,7 +64,7 @@ const ContactFormAndInfo = () => {
                 <span className="material-symbols-outlined text-3xl">call</span>
                 <div>
                   <p className="font-headline font-bold uppercase tracking-wider text-xs opacity-70 mb-1">Call HQ</p>
-                  <p className="text-lg font-bold">+1 (555) 092-4000</p>
+                  <p className="text-lg font-bold">+91 92656 25378</p>
                 </div>
               </div>
             </div>

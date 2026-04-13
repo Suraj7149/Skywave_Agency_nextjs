@@ -7,6 +7,7 @@ import Capabilities from "@/components/Capabilities";
 import WhySkywave from "@/components/WhySkywave";
 import Portfolio from "@/components/Portfolio";
 import Testimonial from "@/components/Testimonial";
+import MeetTeam from "@/components/MeetTeam";
 import Process from "@/components/Process";
 import Footer from "@/components/Footer";
 
@@ -34,6 +35,8 @@ export default function Home() {
       <Portfolio />
 
       <Testimonial />
+
+      <MeetTeam />
 
       <Process />
 
