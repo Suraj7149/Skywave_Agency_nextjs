@@ -57,7 +57,7 @@ const ContactFormAndInfo = () => {
                 <span className="material-symbols-outlined text-3xl">alternate_email</span>
                 <div>
                   <p className="font-headline font-bold uppercase tracking-wider text-xs opacity-70 mb-1">Email Us</p>
-                  <p className="text-lg font-bold">hello@skywave.agency</p>
+                  <p className="text-lg font-bold">sales.skywavetechnologies@outlook.com</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
